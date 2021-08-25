@@ -8,3 +8,11 @@ body {
     font-family: 'Dancing Script', cursive;
     color: #C69867;
 }
+
+.yellow {
+    color: #C69867;
+}
+
+.border-yellow {
+    border-color: #C69867;
+}
