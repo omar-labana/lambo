@@ -1,11 +1,13 @@
 import Header from './Header'
-import Footer from './Footer'
+// import Footer from './Footer'
+// import Hero from './Hero'
 
 const App = () => {
   return (
     <>
       <Header />
-      <Footer />
+      {/* <Hero /> */}
+      {/* <Footer /> */}
     </>
   )
 }
