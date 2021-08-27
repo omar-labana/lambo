@@ -14,7 +14,10 @@ const Meal = () => {
 
   const dish = useSelector((state) => state.dish.dish);
   const {
-    strArea, strCategory, strInstructions, strMeal, strMealThumb, strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5,
+    strArea, strCategory, strInstructions, strMeal, strMealThumb,
+  } = dish;
+  const {
+    strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5,
   } = dish;
 
   return (

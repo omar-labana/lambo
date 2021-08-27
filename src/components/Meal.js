@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const Meal = (props) => {
   const { meal } = props;
@@ -24,6 +25,15 @@ const Meal = (props) => {
       </div>
     </div>
   );
+};
+
+Meal.propTypes = {
+  meal: PropTypes.shape({
+    idMeal: PropTypes.string.isRequired,
+    strMeal: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    strMealThumb: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Meal;

@@ -16,18 +16,10 @@ const dishSlice = createSlice({
   name: 'dish',
   initialState: {
     dish: {},
-    status: null,
   },
   extraReducers: {
-    [getDish.pending]: (state, action) => {
-      state.status = 'loading';
-    },
     [getDish.fulfilled]: (state, { payload }) => {
-      state.dish = payload;
-      state.status = 'success';
-    },
-    [getDish.rejected]: (state, action) => {
-      state.status = 'failed';
+      state.dish = payload; // eslint-disable-line no-param-reassign
     },
   },
 });

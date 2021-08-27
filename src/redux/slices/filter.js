@@ -9,7 +9,7 @@ export const filterSlice = createSlice({
   initialState,
   reducers: {
     updateFilter: (state, action) => {
-      state.filter = action.payload;
+      state.filter = action.payload; // eslint-disable-line no-param-reassign
     },
   },
 });
