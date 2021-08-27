@@ -20,7 +20,6 @@ const Home = () => {
     };
     const show = meals.filter((meal) => meal.type === target || target === 'All');
 
-    console.log(meals, show, target)
     const renderMeals = (meals => meals.map(meal => <Meal meal={meal} key={meal.idMeal} />))
     return (
         <>
@@ -34,17 +33,3 @@ const Home = () => {
 }
 
 export default Home
-
-
-
-// // import Hero from './Hero'
-// import Meal from './Meal'
-// import { getMeals } from '../redux/slices/meals'
-// import { useDispatch, useSelector } from 'react-redux'
-// import { useEffect } from 'react'
-// const dispatch = useDispatch()
-//   useEffect(() => {
-//     dispatch(getMeals())
-//   }, [dispatch])
-//   const meals = useSelector(state => state.meals)
-//   console.log(meals)

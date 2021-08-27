@@ -16,7 +16,6 @@ const Meal = () => {
     const dish = useSelector(state => state.dish.dish)
     const { strArea, strCategory, strInstructions, strMeal, strMealThumb, strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5 } = dish
 
-    console.log(dish)
     return (
         <div className="text-white text-2xl flex flex-col items center gap-10 mx-20">
             <p className="dancing-font text-7xl">{strMeal}</p>
