@@ -11,7 +11,7 @@ const Meal = (props) => {
                 <h3 className="text-5xl font-semibold ">{strMeal}</h3>
 
                 <Link to={{
-                    pathname: "/meal",
+                    pathname: `/meal/${idMeal}`,
                     state: { id: idMeal }
                 }} className="text-right yellow text-xl font-bold">More Details &#8594;</Link>
             </div>

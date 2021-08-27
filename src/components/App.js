@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <BrowserRouter>
         <Switch>
-          <Route path="/meal" component={Meal} />
+          <Route path="/meal/:id" component={Meal} />
           <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
