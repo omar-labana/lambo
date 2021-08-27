@@ -4,7 +4,6 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Footer from '../../components/Footer';
 
-
 describe('Footer Component', () => {
   const wrapper = shallow(<Footer />);
 

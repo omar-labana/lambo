@@ -4,7 +4,6 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Header from '../../components/Header';
 
-
 describe('Header Component', () => {
   const wrapper = shallow(<Header />);
 
