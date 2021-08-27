@@ -1,4 +1,3 @@
-
 const categories = ['All', 'Chicken', 'Pasta', 'Seafood'];
 
 const CategoryFilter = (props) => {

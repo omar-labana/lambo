@@ -1,24 +1,20 @@
-import Header from './Header'
-import Footer from './Footer'
-import Home from '../views/Home'
-import Meal from '../views/Meal'
-
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Home from '../views/Home';
+import Meal from '../views/Meal';
 
-const App = () => {
+const App = () => (
+  <>
+    <Header />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/meal/:id" component={Meal} />
+        <Route path="/" component={Home} />
+      </Switch>
+    </BrowserRouter>
+    <Footer />
+  </>
+);
 
-  return (
-    <>
-      <Header />
-      <BrowserRouter>
-        <Switch>
-          <Route path="/meal/:id" component={Meal} />
-          <Route path="/" component={Home} />
-        </Switch>
-      </BrowserRouter>
-      <Footer />
-    </>
-  )
-}
-
-export default App
+export default App;

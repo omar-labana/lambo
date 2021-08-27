@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-    background-color: #181717;
+  background-color: #181717;
 }
 
 .dancing-font {
-    font-family: 'Dancing Script', cursive;
-    color: #C69867;
+  font-family: 'Dancing Script', cursive;
+  color: #c69867;
 }
 
 .yellow {
-    color: #C69867;
+  color: #c69867;
 }
 
 .border-yellow {
-    border-color: #C69867;
+  border-color: #c69867;
 }
