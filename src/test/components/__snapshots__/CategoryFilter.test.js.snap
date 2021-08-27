@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryFilter Component has to match snap 1`] = `
+<div
+  className="flex items-center justify-center gap-5 py-10"
+>
+  <h2
+    className="text-white text-3xl"
+  >
+    Category Filter:
+  </h2>
+  <select
+    className="p-5 text-3xl"
+    name="target"
+    onChange={[Function]}
+    value="ALL"
+  >
+    <option
+      value="All"
+    >
+      All
+    </option>
+    <option
+      value="Chicken"
+    >
+      Chicken
+    </option>
+    <option
+      value="Pasta"
+    >
+      Pasta
+    </option>
+    <option
+      value="Seafood"
+    >
+      Seafood
+    </option>
+  </select>
+</div>
+`;
