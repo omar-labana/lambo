@@ -1,9 +1,9 @@
-import reducer from '../../redux/slices/filter'
+import reducer from '../../redux/slices/filter';
 
 test('should return the initial state', () => {
-    expect(reducer(undefined, { })).toEqual(
-        {
-            filter: 'All',
-        }
-    )
-})
+  expect(reducer(undefined, { })).toEqual(
+    {
+      filter: 'All',
+    },
+  );
+});
